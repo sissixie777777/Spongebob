@@ -1,4 +1,4 @@
-[Spongebob_README.md](https://github.com/user-attachments/files/32741435/Spongebob_README.md)# Spongebob
+# Spongebob
 
 > 基于 XIAO ESP32S3 Sense 的空气状态感知 + 眼睑反馈 + OLED 信息显示 + 学习计时振动提醒装置。
 
