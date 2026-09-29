@@ -142,7 +142,7 @@ JST-XH 2Pin
 
 # 4. 最终电路图
 
-![最终电路图](./spongebob_circuit_final_20260929.png)
+![最终电路图](./spongebob_wiring_final_20260929.png)
 
 矢量版本：
 
