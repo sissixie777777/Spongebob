@@ -60,7 +60,7 @@ https://www.hackster.io/mondal3011/spongebob-that-can-detect-drowsiness-c610b4
 
 # 3. 最终机械解构图
 
-![最终机械解构图](./spongebob_exploded_final.png)
+![最终机械解构图](./spongebob_exploded_final_20260929.png)
 
 图中需要重点理解以下关系：
 
@@ -142,7 +142,7 @@ JST-XH 2Pin
 
 # 4. 最终电路图
 
-![最终电路图](./spongebob_circuit_final.png)
+![最终电路图](./spongebob_circuit_final_20260929.png)
 
 矢量版本：
 
