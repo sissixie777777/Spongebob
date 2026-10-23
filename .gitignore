@@ -1,0 +1,6 @@
+.tools/
+.pio/
+__pycache__/
+*.pyc
+build/
+.vscode/
