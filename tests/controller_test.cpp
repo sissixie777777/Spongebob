@@ -111,6 +111,7 @@ void controllerTests(bool dc) {
   assert(!app.vibrationOn());
   app.begin(2000, 1); app.update(2000, 1, false, 0); app.update(2020, 1, false, 0);
   assert(app.fault() == Fault::None);
+  app.update(2050, 1, true, 0, false); assert(app.fault() == Fault::None);
   app.update(2100, 1, true, 500, false); assert(app.fault() == Fault::AirSensor);
 }
 int main() {

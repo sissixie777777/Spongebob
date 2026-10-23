@@ -172,7 +172,10 @@ class Controller {
     inhibited_ = raw < 0 || elapsed(now, boot_) < c_.hallDebounceMs;
     eye_.update(now, hall);
     if (eye_.fault() != Fault::None) fail(eye_.fault());
-    if (sampleReady && !sampleValid) fail(Fault::AirSensor);
+    // MQ135 may be near a rail during heater warm-up. Diagnose it after
+    // the configured stabilization interval rather than latching immediately.
+    if (sampleReady && !sampleValid && elapsed(now, boot_) >= c_.warmupMs)
+      fail(Fault::AirSensor);
     if (fault_ != Fault::None) { vibrationOn_ = false; return; }
     if (elapsed(now, boot_) < c_.warmupMs || !eye_.homed()) {
       vibrationOn_ = false; return;
