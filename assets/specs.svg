@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="30 minute trigger, three vibration pulses, three feedback positions, zero blocking delays">
+<rect x="1" y="1" width="998" height="148" rx="22" fill="#0b182a" stroke="#28435b"/>
+<g stroke="#28435b"><path d="M250 30v90M500 30v90M750 30v90"/></g>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<g fill="#ffda55" font-size="38" font-weight="700"><text x="125" y="66">30 MIN</text><text x="375" y="66">3 PULSES</text><text x="625" y="66">3 POSITIONS</text><text x="875" y="66">0 DELAYS</text></g>
+<g fill="#9db5c6" font-size="13"><text x="125" y="103">CONTINUOUS HIGH-AIR TRIGGER</text><text x="375" y="103">A TACTILE REMINDER</text><text x="625" y="103">HALL-CONFIRMED / NANO</text><text x="875" y="103">COOPERATIVE STATE MACHINE</text></g></g></svg>
